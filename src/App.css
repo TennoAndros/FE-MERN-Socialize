@@ -11,7 +11,8 @@
   --photo: #4cb256;
   --video: #4a4eb7;
   --location: #ef5757;
-  --shedule: #e1ae4a;
+  --schedule: #e1ae4a;
+  --logo: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
 }
 .App {
   overflow: hidden;
@@ -27,4 +28,26 @@
   border-radius: 50%;
   background: #a6ddf0;
   filter: blur(72px);
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
+}
+
+.Button:hover {
+  cursor: pointer;
+  color: var(--orange);
+  background: transparent;
+  border: 2px solid var(--orange);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

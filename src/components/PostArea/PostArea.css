@@ -1,7 +1,7 @@
-.Profile {
+.PostArea {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: center;
+  height: 100vh;
   overflow: auto;
 }

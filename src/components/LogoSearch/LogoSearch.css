@@ -8,12 +8,18 @@
   background-color: var(--inputColor);
   border-radius: 10px;
   padding: 5px;
+  width: 14rem;
 }
 
 .Search > input {
+  flex-grow: 1;
   background-color: transparent;
   border: none;
-  outline: none;
+}
+
+.Search > input:focus {
+  border-radius: 5px;
+  outline: 2px solid orange;
 }
 
 .srch-icon {
@@ -24,6 +30,7 @@
   border-radius: 5px;
   padding: 4px;
   color: white;
+  margin-left: 0.5rem;
 }
 
 .srch-icon:hover {

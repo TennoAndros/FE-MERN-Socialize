@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home.css";
-import Profile from "../../components/Profile/Profile";
+import ProfileArea from "../../components/ProfileArea/ProfileArea";
+import PostArea from "../../components/PostArea/PostArea";
 
 const Home = () => {
   return (
     <div className="Home">
-      <Profile />
-      <div className="posteSide">Posts</div>
+      <ProfileArea />
+      <PostArea />
       <div className="rightSide">RightSIde</div>
     </div>
   );

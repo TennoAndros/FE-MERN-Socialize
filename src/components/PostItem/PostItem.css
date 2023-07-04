@@ -1,0 +1,21 @@
+.PostItem {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  gap: 1rem;
+}
+
+.PostItem > img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.PostReactions{
+  display: flex;
+  align-items: start;
+  gap: 1.5rem;
+}

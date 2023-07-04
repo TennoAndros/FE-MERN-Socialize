@@ -2,13 +2,17 @@ import React from "react";
 import LogoSearch from "../LogoSearch/LogoSearch";
 import ProfileCard from "../ProfileCard/ProfileCard";
 
-const Profile = () => {
+import "./ProfileArea.css";
+import FollowersCard from "../FollowersCard/FollowersCard";
+
+const ProfileArea = () => {
   return (
-    <div className="Profile">
+    <div className="ProfileArea">
       <LogoSearch />
       <ProfileCard />
+      <FollowersCard />
     </div>
   );
 };
 
-export default Profile;
+export default ProfileArea;
