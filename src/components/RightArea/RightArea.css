@@ -1,0 +1,22 @@
+.RightArea {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.NavIcons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavIcons > img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.Right-Button {
+  height: 2.5rem;
+  width: 80%;
+  align-self: center;
+}

@@ -1,18 +1,16 @@
 import React from "react";
 import LogoSearch from "../LogoSearch/LogoSearch";
-import ProfileCard from "../ProfileCard/ProfileCard";
-
-import "./ProfileArea.css";
 import FollowersCard from "../FollowersCard/FollowersCard";
+import InfoCard from "../InfoCard/InfoCard";
 
-const ProfileArea = () => {
+const ProfileLeft = () => {
   return (
-    <div className="ProfileArea">
+    <div className="LeftAreaProfile">
       <LogoSearch />
-      <ProfileCard />
+      <InfoCard />
       <FollowersCard />
     </div>
   );
 };
 
-export default ProfileArea;
+export default ProfileLeft;

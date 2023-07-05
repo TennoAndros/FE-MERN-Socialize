@@ -15,7 +15,7 @@ const PostItem = ({ data }) => {
         <img src={Comment} alt="Comment" />
         <img src={Share} alt="Share" />
       </div>
-      <span>{data.likes}Likes</span>
+      <span style={{color:"var(--gray", fontSize:"14px"}}>{data.likes}Likes</span>
       <div className="Details">
         <span>
           <b>{data.name}:</b>

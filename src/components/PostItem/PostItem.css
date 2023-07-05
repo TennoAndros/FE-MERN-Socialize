@@ -14,8 +14,8 @@
   border-radius: 0.5rem;
 }
 
-.PostReactions{
+.PostReactions {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   gap: 1.5rem;
 }
