@@ -43,7 +43,7 @@ const InfoCard = () => {
       <div className="Info">
         <span>Hobbies </span>
         <span>
-          <b>Reading, Gaming, TV-Shows, Anime</b>
+          <b>Reading fantasy novels, Gaming, TV-Shows, Anime, D&D player</b>
         </span>
       </div>
       <button className="Button Logout-Button">Logout</button>
