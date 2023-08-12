@@ -4,10 +4,12 @@ import App from "./App";
 import { Provider } from "react-redux";
 import store from "./store/ReduxStore";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Favicon from "./img/favicon.ico";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <BrowserRouter>
+      <link rel="icon" type="image/png" href={Favicon} />
       <Routes>
         <Route path="*" element={<App />} />
       </Routes>
