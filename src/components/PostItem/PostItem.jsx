@@ -13,8 +13,8 @@ const PostItem = ({ data }) => {
   const [likes, setLikes] = useState(data.likes.length);
 
   const handleLike = () => {
-    setLiked((prev) => !prev);
     likePost(data._id, user._id);
+    setLiked((prev) => !prev);
     liked ? setLikes((prev) => --prev) : setLikes((prev) => ++prev);
   };
 
