@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Socialize
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Socialize, a social networking application that allows users to connect with friends, share moments, and interact with posts. With a focus on user authentication and dynamic content, Socialize Up offers various features to enhance your social experience.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Link to Deployed Version](#link-to-deployed-version)
+- [Link to Backend API Repository](#link-to-backend-api-repository)
+- [Features](#features)
+- [Installation Instructions](#installation-instructions)
+- [Technologies Used](#technologies-used)
 
-### `npm start`
+## Link to Deployed Version
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can access the deployed version of FE-Andros-News [here]().
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Link to Backend API Repository
 
-### `npm test`
+The backend API repository for this project can be found [here](https://github.com/TennoAndros/BE-MERN-Socialize).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+The Socialize App includes the following features and functionality:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **User Authentication:** Sign up and log in securely to access your account and profile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Post Images:** Share your favorite moments by posting images.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Like and Unlike Posts:** Interact with posts by liking or unliking them.
 
-### `npm run eject`
+- **Follow and Unfollow Users:** Connect with friends and discover new users by following or unfollowing them.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Home Feed:** Get updates from users you follow in your home feed. Like their posts.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Profile Editing:** Edit your profile information including first name, last name, work, location, hobbies, relationship status, profile image, and cover image.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Suggestions:** Receive suggestions for people to follow.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation Instructions
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js (v18.17.0 or later) must be installed on your system.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Setup
 
-### Code Splitting
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/TennoAndros/FE-MERN-Socialize.git
+cd FE-MERN-Socialize
+```
 
-### Analyzing the Bundle Size
+2. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm i
+```
 
-### Making a Progressive Web App
+3. Launch the application in your browser::
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The FE-MERN-Socialize app was created using the following technologies:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React](https://react.dev/): JavaScript library for building user interfaces.
+- [Redux](https://redux.js.org/): State management library for JavaScript apps.
