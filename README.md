@@ -1,6 +1,6 @@
 # Socialize
 
-Welcome to Socialize, a social networking application that allows users to connect with friends, share moments, and interact with posts. With a focus on user authentication and dynamic content, Socialize Up offers various features to enhance your social experience.
+Welcome to Socialize, a social networking application that allows users to connect with friends, share moments, and interact with posts. With a focus on user authentication and dynamic content, Socialize offers various features to enhance your social experience.
 
 ## Table of Contents
 
@@ -69,3 +69,5 @@ The FE-MERN-Socialize app was created using the following technologies:
 
 - [React](https://react.dev/): JavaScript library for building user interfaces.
 - [Redux](https://redux.js.org/): State management library for JavaScript apps.
+
+**More functionality will be added in the future**
