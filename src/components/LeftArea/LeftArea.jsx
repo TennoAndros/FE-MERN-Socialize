@@ -9,7 +9,7 @@ const LeftArea = () => {
   return (
     <div className="LeftAreaProfile">
       <LogoSearch />
-      <ProfileCard />
+      <ProfileCard location="homepage" />
       <FollowersCard />
     </div>
   );

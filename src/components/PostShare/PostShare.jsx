@@ -1,5 +1,4 @@
 import { React, useState, useRef } from "react";
-import ProfileImage from "../../img/profileAndros.jpg";
 import "./PostShare.css";
 import { UilScenery } from "@iconscout/react-unicons";
 import { UilPlayCircle } from "@iconscout/react-unicons";
@@ -15,6 +14,7 @@ const PostShare = () => {
   const desc = useRef();
   const { user } = useSelector((state) => state.authReducer.authData);
   const loading = useSelector((state) => state.postReducer.uploading);
+  const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER;
 
   const onImageChange = (event) => {
     if (event.target.files && event.target.files[0]) {
@@ -25,7 +25,7 @@ const PostShare = () => {
 
   const imageRef = useRef();
 
-  const reset = () => {
+  const resetShare = () => {
     setImage(null);
     desc.current.value = "";
   };
@@ -49,12 +49,19 @@ const PostShare = () => {
       }
     }
     dispatch(uploadPost(newPost));
-    reset();
+    resetShare();
   };
 
   return (
     <div className="PostShare">
-      <img src={ProfileImage} alt="Profile" />
+      <img
+        src={
+          user.profileImage
+            ? serverPublic + user.profileImage
+            : serverPublic + "defaultProfile.png"
+        }
+        alt="Profile"
+      />
       <div>
         <input
           ref={desc}
