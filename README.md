@@ -12,7 +12,7 @@ Welcome to Socialize, a social networking application that allows users to conne
 
 ## Link to Deployed Version
 
-You can access the deployed version of FE-Andros-News [here]().
+You can access the deployed version of FE-MERN-Socialize [here]().
 
 ## Link to Backend API Repository
 
