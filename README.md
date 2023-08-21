@@ -6,15 +6,11 @@ I do not own any of the media used and they were used for the sole purpose of pr
 
 ## Table of Contents
 
-- [Link to Deployed Version](#link-to-deployed-version)
 - [Link to Backend API Repository](#link-to-backend-api-repository)
 - [Features](#features)
 - [Installation Instructions](#installation-instructions)
 - [Technologies Used](#technologies-used)
 
-## Link to Deployed Version
-
-You can access the deployed version of FE-MERN-Socialize [here]().
 
 ## Link to Backend API Repository
 
